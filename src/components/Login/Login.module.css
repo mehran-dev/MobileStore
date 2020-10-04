@@ -1,0 +1,68 @@
+.Login {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.Form {
+    padding-top     : 16px;
+    border-radius   : 6px;
+    margin          : 16px auto;
+    min-width       : 400px;
+    min-height      : 200px;
+    max-width       : 400px;
+    background-color: rgb(33, 35, 59);
+    box-shadow      : 3px 6px 6px #999;
+    position        : relative;
+
+}
+
+.inputPair {
+    border         : 1px solid rgba(255, 255, 255, 0.151);
+    margin         : 12px;
+    padding        : 12px;
+    display        : flex;
+    justify-content: space-around;
+    align-content  : space-between;
+    align-items    : center;
+    border-radius  : 6px;
+}
+
+.inputPair input {
+    border          : 1px solid rgb(255, 255, 255);
+    border-radius   : 2px;
+    background-color: transparent;
+    padding         : 3px 12px;
+    border-radius   : 3px;
+    color           : #fff;
+
+}
+
+.inputPair label {
+    color: #fff;
+}
+
+.inputPair label:hover {
+    cursor: pointer;
+    color : rgb(0, 160, 160);
+}
+
+.Button {
+    background-color: rgb(58, 40, 138);
+    color           : #fff;
+    border          : 1px solid transparent;
+    min-width       : 75px;
+    padding         : 6px 12px;
+    border-radius   : 3px;
+    transition      : all 0.3s ease;
+    cursor          : pointer;
+    margin-top      : 12px;
+
+}
+
+
+.Button:hover {
+    border-color    : rgb(32, 17, 100);
+    color           : rgb(255, 255, 255);
+    background-color: rgb(41, 13, 117);
+    border-radius   : 6px;
+}

@@ -1,0 +1,28 @@
+.Footer {
+    background-color: #201c30;
+    height          : 100%;
+    color           : #fff;
+    min-height      : 250px;
+    text-align      : center;
+    padding         : 30px 12px;
+}
+
+.Fire {
+    padding: 12px;
+}
+
+.Fire i {
+    margin   : 20px;
+    color    : red;
+    font-size: xx-large;
+}
+
+.Bomb {
+    padding: 12px;
+}
+
+.Bomb i {
+    margin   : 20px;
+    color    : yellow;
+    font-size: xx-large;
+}
